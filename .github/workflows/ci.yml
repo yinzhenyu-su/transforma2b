@@ -73,7 +73,8 @@ jobs:
             ${{ runner.os }}-${{ matrix.node-version }}-release-
             ${{ runner.os }}-
       - run: npm i -g pnpm@~8
-      - run: pnpm i & pnpm run build
+      - run: pnpm i
+      - run: pnpm run build
       - run: pnpx semantic-release --branches release
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
