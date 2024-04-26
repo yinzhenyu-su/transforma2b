@@ -22,12 +22,22 @@
     "object",
     "obj"
   ],
+  "maintainers": [
+    "yinzhenyu-su"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "author": {
     "email": "sharkrain@outlook.com",
     "name": "yinzhenyu",
     "url": "https://blog.bgm.fun"
   },
   "homepage": "https://github.com/yinzhenyu-su/transforma2b",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yinzhenyu-su/transforma2b.git"
+  },
   "license": "MIT",
   "devDependencies": {
     "@vitest/coverage-v8": "^1.5.2",
