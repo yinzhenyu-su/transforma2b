@@ -1,6 +1,6 @@
-# Transforma2B
+# TransformA2B
 
-Transforma2B is a data transformation tool that helps you convert data from one format to another.
+TransformA2B is a data transformation tool that helps you convert data from one format to another.
 
 ## Description
 
